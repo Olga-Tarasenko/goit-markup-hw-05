@@ -545,11 +545,11 @@ footer .social-icons:focus {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-open {
+/* .backdrop.is-open {
   opacity: 1;
   pointer-events: auto;
   visibility: visible;
-}
+} */
 
 .backdrop:not(.is-open) .modal {
   transform: scale(1.5);
@@ -659,6 +659,7 @@ footer .social-icons:focus {
   resize: none;
   padding: 8px 16px;
   outline: transparent;
+  color: rgba(46, 47, 66, 0.4);
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
